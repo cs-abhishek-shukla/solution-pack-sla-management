@@ -9,6 +9,7 @@
 4. Click **Install** on the lower part of the screen to begin the installation.
 
 ## Prerequisites
+
 The **SLA Management** solution pack depends on the following solution packs that are installed automatically &ndash; if not already installed.
 
 | Solution Pack Name | Version         | Purpose                                |
