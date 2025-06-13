@@ -14,9 +14,9 @@ The **SLA Management** solution pack contains the following resources.
 ## Connector
 
 
-| Name           | Description                                                                                                                                           |
-|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SLA Calculator | Calculates SLA due date based on locale and work hours. This connector needs soar framework solution pack for supporting playbooks and module changes |
+| Name           | Description                                            |
+|:---------------|:-------------------------------------------------------|
+| SLA Calculator | Calculates SLA due date based on locale and work hours.|
 
 ## Roles
 
