@@ -7,6 +7,6 @@
     </tr>
 </table>
 
-- Properly calculates **Response Due Date** and **Response SLA** when status changes (e.g., Open → Investigating → Pending → Investigating).  
-- Correctly sets **Acknowledge SLA** if an alert moves from **Open → Closed**.  
-- Ensures accurate **Ack Due Date** and **Ack Date** calculation when an alert is updated to **Investigating** immediately after creation.
+- **Response Due Date** and **Response SLA** are now accurately recalculated upon changes in status (e.g., from *Open* → *Investigating* → *Pending* → *Investigating*).
+- **Acknowledge SLA** is now correctly set when an alert transitions from *Open* to *Closed*.
+- The calculation of **Ack Due Date** and **Ack Date** is now precise when an alert is updated to **Investigating** immediately after its creation.
