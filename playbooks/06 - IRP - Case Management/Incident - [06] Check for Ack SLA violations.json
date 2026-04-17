@@ -1,8 +1,7 @@
 {
-    "@context": "\/api\/3\/contexts\/Workflow",
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [06] Check for Ack SLA violations",
+    "name": "Incident - [06] Check for Acknowledge SLA violations",
     "aliasName": null,
     "tag": "#Schedule  #system",
     "description": "Notifies users of violation of Acknowledgement SLA.",
@@ -121,6 +120,8 @@
     ],
     "groups": [],
     "priority": null,
+    "playbookOrigin": "\/api\/3\/picklists\/b6d710a9-a8ec-41ec-8817-fe9fa062fcdd",
+    "isEditable": false,
     "uuid": "7d278c39-166e-4659-b28c-c979a4eb2df2",
     "owners": [],
     "isPrivate": false,

@@ -86,8 +86,8 @@
                 "workflowReference": "\/api\/3\/workflows\/ef9acc85-0610-45f5-a0ca-fe6b06d53e0a"
             },
             "status": null,
-            "top": "160",
-            "left": "120",
+            "top": "165",
+            "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/74932bdc-b8b6-4d24-88c4-1a4dfbc524f3",
             "group": null,
             "uuid": "794cd6ac-ce09-4fa3-af8f-42005b3ec404"
@@ -107,6 +107,8 @@
     ],
     "groups": [],
     "priority": null,
+    "playbookOrigin": "\/api\/3\/picklists\/b6d710a9-a8ec-41ec-8817-fe9fa062fcdd",
+    "isEditable": false,
     "uuid": "2855e308-a058-41a5-a9ad-1919a7629912",
     "owners": [],
     "isPrivate": false,
