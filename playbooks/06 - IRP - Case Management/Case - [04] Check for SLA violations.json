@@ -94,7 +94,7 @@
             "description": null,
             "arguments": {
                 "for_each": {
-                    "item": "{{vars.steps.Fetch_Open_Incidents}}",
+                    "item": "{{vars.steps.Fetch_Open_Cases}}",
                     "condition": ""
                 },
                 "arguments": {
