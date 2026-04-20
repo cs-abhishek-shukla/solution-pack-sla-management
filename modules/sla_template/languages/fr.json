@@ -5,17 +5,17 @@
             "PLURAL_NAME": "Modèles SLA"
         },
         "FIELDS": {
-            "INCPAUSESLAON": "Mettre en pause la SLA d'incident le",
-            "ALTPAUSESLAON": "Mettre en pause la SLA d'alerte le",
-            "ACKSLATIME": "Temps d'accusé de réception d'incident",
-            "INCSEVERITY": "Gravité de l'incident",
-            "RESTIME": "Temps de réponse à l'incident",
-            "SLATRACKEDON": "Suivi de la SLA d'accusé de réception d'incident le",
-            "RESSLATRACKEDON": "Suivi de la SLA de réponse à l'incident le",
-            "ALERTACKTIME": "Temps d'accusé de réception d'alerte",
-            "ALERTRESTIME": "Temps de réponse à l'alerte",
-            "ALERTACKTRACKEDON": "Suivi de l'accusé de réception d'alerte le",
-            "ALERTRESTRACKEDON": "Suivi de la réponse à l'alerte le"
+            "INCPAUSESLAON": "Mettre en pause le SLA du cas sur",
+            "ALTPAUSESLAON": "Mettre en pause le SLA de l'alerte sur",
+            "ACKSLATIME": "Temps d'accusé de réception du cas",
+            "INCSEVERITY": "Sévérité",
+            "RESTIME": "Temps de réponse du cas",
+            "SLATRACKEDON": "SLA d'accusé de réception du cas suivi sur",
+            "RESSLATRACKEDON": "SLA de réponse du cas suivi sur",
+            "ALERTACKTIME": "Temps d'accusé de réception de l'alerte",
+            "ALERTRESTIME": "Temps de réponse de l'alerte",
+            "ALERTACKTRACKEDON": "Accusé de réception de l'alerte suivi sur",
+            "ALERTRESTRACKEDON": "Réponse de l'alerte suivie sur"
         }
     }
 }

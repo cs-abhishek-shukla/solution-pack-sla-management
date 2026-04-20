@@ -1,7 +1,9 @@
 {
     "descriptions": {
-        "plural": "Incidents",
-        "singular": "Incident"
+        "plural": "Incidnets",
+        "singular": "Incident",
+        "display_singular": "Case",
+        "display_plural": "Cases"
     },
     "type": "incidents",
     "attributes": [

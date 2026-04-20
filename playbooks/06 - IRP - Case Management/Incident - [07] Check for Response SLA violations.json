@@ -1,7 +1,7 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [07] Check for Response SLA violations",
+    "name": "Case - [07] Check for Response SLA violations",
     "aliasName": null,
     "tag": "#Schedule  #system",
     "description": "Notifies users of violation of Response SLA.",
@@ -20,9 +20,9 @@
             "name": "Check and Notify SLA Violation",
             "description": null,
             "arguments": {
-                "when": "{{vars.steps.Retrieve_all_Acknowledged_incidents | length !=0}}",
+                "when": "{{vars.steps.Retrieve_all_Acknowledged_cases | length !=0}}",
                 "for_each": {
-                    "item": "{{vars.steps.Retrieve_all_Acknowledged_incidents}}",
+                    "item": "{{vars.steps.Retrieve_all_Acknowledged_cases}}",
                     "parallel": false,
                     "condition": ""
                 },
@@ -47,7 +47,7 @@
         },
         {
             "@type": "WorkflowStep",
-            "name": "Retrieve all Acknowledged incidents",
+            "name": "Retrieve all Acknowledged cases",
             "description": null,
             "arguments": {
                 "query": {
@@ -99,7 +99,7 @@
     "routes": [
         {
             "@type": "WorkflowRoute",
-            "name": "Retrieve all Acknowledged incidents -> Check and Notify SLA Violation",
+            "name": "Retrieve all Acknowledged cases -> Check and Notify SLA Violation",
             "targetStep": "\/api\/3\/workflow_steps\/94c31636-f2c3-430f-8b31-b001e2a38306",
             "sourceStep": "\/api\/3\/workflow_steps\/51bb51f0-058b-41e1-a92e-5d323a8035dd",
             "label": null,
@@ -109,7 +109,7 @@
         },
         {
             "@type": "WorkflowRoute",
-            "name": "Start -> Retrieve all Acknowledged incidents",
+            "name": "Start -> Retrieve all Acknowledged cases",
             "targetStep": "\/api\/3\/workflow_steps\/51bb51f0-058b-41e1-a92e-5d323a8035dd",
             "sourceStep": "\/api\/3\/workflow_steps\/15e1e5d6-c95f-4ae7-aa81-702389ee572f",
             "label": null,

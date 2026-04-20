@@ -4,7 +4,7 @@
     "name": "Notify Response SLA Violation",
     "aliasName": null,
     "tag": "#Subroutine  #system",
-    "description": "Checks every 5 minutes for Response SLA violations of acknowledged incidents.",
+    "description": "Checks every 5 minutes for Response SLA violations of acknowledged cases.",
     "isActive": false,
     "debug": false,
     "singleRecordExecution": false,

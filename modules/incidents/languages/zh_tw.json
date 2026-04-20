@@ -1,0 +1,11 @@
+{
+    "INCIDENTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "案件",
+            "PLURAL_NAME": "案件"
+        },
+        "FIELDS": {
+            "RESPONSESLARESUMEDATE": "回應 SLA 恢復日期"
+        }
+    }
+}

@@ -1,10 +1,10 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [05] Update Response and Acknowledge Due date (Post Severity Change)",
+    "name": "Case - [05] Update Response and Acknowledge Due date (Post Severity Change)",
     "aliasName": null,
     "tag": null,
-    "description": "Update an incident's acknowledgement due date and response due date following a change in severity.",
+    "description": "Update case acknowledgement due date and response due date following a change in severity.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,

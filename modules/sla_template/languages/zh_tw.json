@@ -1,0 +1,21 @@
+{
+    "SLA_TEMPLATE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "SLA 範本",
+            "PLURAL_NAME": "SLA 範本"
+        },
+        "FIELDS": {
+            "INCPAUSESLAON": "暫停案件 SLA 的條件",
+            "ALTPAUSESLAON": "暫停警示 SLA 的條件",
+            "ACKSLATIME": "案件確認時間",
+            "INCSEVERITY": "嚴重性",
+            "RESTIME": "案件回應時間",
+            "SLATRACKEDON": "案件確認 SLA 追蹤依據",
+            "RESSLATRACKEDON": "案件回應 SLA 追蹤依據",
+            "ALERTACKTIME": "警示確認時間",
+            "ALERTRESTIME": "警示回應時間",
+            "ALERTACKTRACKEDON": "警示確認追蹤依據",
+            "ALERTRESTRACKEDON": "警示回應追蹤依據"
+        }
+    }
+}

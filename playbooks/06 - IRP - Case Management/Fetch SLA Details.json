@@ -4,7 +4,7 @@
     "name": "Fetch SLA Details",
     "aliasName": null,
     "tag": "#Subroutine  #system",
-    "description": "Fetches SLA Details for incidents as per Service, that is, for MSSP or Enterprise.",
+    "description": "Fetches SLA Details for cases as per Service, that is, for MSSP or Enterprise.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
