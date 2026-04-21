@@ -1,7 +1,7 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [06] Check for Acknowledge SLA violations",
+    "name": "Case - [06] Check for Acknowledge SLA violations",
     "aliasName": null,
     "tag": "#Schedule  #system",
     "description": "Notifies users of violation of Acknowledgement SLA.",
@@ -20,9 +20,9 @@
             "name": "Check and Notify SLA Violations",
             "description": null,
             "arguments": {
-                "when": "{{vars.steps.Retrieve_all_New_incidents | length !=0}}",
+                "when": "{{vars.steps.Retrieve_all_New_cases | length !=0}}",
                 "for_each": {
-                    "item": "{{vars.steps.Retrieve_all_New_incidents}}",
+                    "item": "{{vars.steps.Retrieve_all_New_cases}}",
                     "parallel": false,
                     "condition": ""
                 },
@@ -47,7 +47,7 @@
         },
         {
             "@type": "WorkflowStep",
-            "name": "Retrieve all New incidents",
+            "name": "Retrieve all New cases",
             "description": null,
             "arguments": {
                 "query": {
@@ -99,7 +99,7 @@
     "routes": [
         {
             "@type": "WorkflowRoute",
-            "name": "Retrieve all New incidents -> Check and Notify SLA Violations",
+            "name": "Retrieve all New cases -> Check and Notify SLA Violations",
             "targetStep": "\/api\/3\/workflow_steps\/f29faa62-8ef9-4dcc-a21b-ccba56139fc1",
             "sourceStep": "\/api\/3\/workflow_steps\/58369991-4fdb-433b-9942-239796f76d32",
             "label": null,
@@ -109,7 +109,7 @@
         },
         {
             "@type": "WorkflowRoute",
-            "name": "Start -> Retrieve all New incidents",
+            "name": "Start -> Retrieve all New cases",
             "targetStep": "\/api\/3\/workflow_steps\/58369991-4fdb-433b-9942-239796f76d32",
             "sourceStep": "\/api\/3\/workflow_steps\/dd545774-02fe-4222-9b9b-3ce4c971a539",
             "label": null,

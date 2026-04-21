@@ -1,8 +1,8 @@
 {
     "INCIDENTS": {
         "MODULE_DETAILS": {
-            "SINGULAR_NAME": "Incident",
-            "PLURAL_NAME": "Incidents"
+            "SINGULAR_NAME": "Case",
+            "PLURAL_NAME": "Cases"
         },
         "FIELDS": {
             "RESPONSESLARESUMEDATE": "Response SLA Resume Date"
