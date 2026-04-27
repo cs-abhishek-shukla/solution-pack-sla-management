@@ -10,7 +10,7 @@
             "name": "sOARFramework",
             "type": "solutionpack",
             "label": "SOAR Framework",
-            "minVersion": null
+            "minVersion": "4.0.0"
         }
     ],
     "prerequisite": null,
