@@ -238,8 +238,8 @@
             "arguments": {
                 "when": "{{vars.input.records[0].slaState.itemValue== \"Awaiting Action\" or vars.input.records[0].slaState.itemValue == \"Paused\" or vars.input.records[0].slaState.itemValue == \"NA\"}}",
                 "resource": {
-                    "slaState": "\/api\/3\/picklists\/5230b20c-d408-4b36-ad8f-610167d84d34",
-                    "ackDueDate": "{{globalVars.Current_Date}}"
+                    "ackDate": "{{globalVars.Current_Date}}",
+                    "slaState": "\/api\/3\/picklists\/5230b20c-d408-4b36-ad8f-610167d84d34"
                 },
                 "_showJson": false,
                 "operation": "Overwrite",
@@ -560,7 +560,7 @@
     "groups": [],
     "priority": null,
     "playbookOrigin": "\/api\/3\/picklists\/b6d710a9-a8ec-41ec-8817-fe9fa062fcdd",
-    "isEditable": false,
+    "isEditable": true,
     "uuid": "9e14d9ea-bcd1-46d5-965e-42bdc8918a59",
     "owners": [],
     "isPrivate": false,
