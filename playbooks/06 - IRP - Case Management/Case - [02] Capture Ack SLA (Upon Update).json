@@ -2,10 +2,10 @@
     "@context": "\/api\/3\/contexts\/Workflow",
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [02] Capture Acknowledge SLA (Upon Update)",
+    "name": "Case - [02] Capture Acknowledge SLA (Upon Update)",
     "aliasName": null,
     "tag": null,
-    "description": "Updates an incident's acknowledgement date and SLA status when the status of the incident is changed.",
+    "description": "Updates case acknowledgement date and SLA status when the status of the case is changed.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
@@ -238,8 +238,8 @@
             "arguments": {
                 "when": "{{vars.input.records[0].slaState.itemValue== \"Awaiting Action\" or vars.input.records[0].slaState.itemValue == \"Paused\" or vars.input.records[0].slaState.itemValue == \"NA\"}}",
                 "resource": {
-                    "ackDate": "{{globalVars.Current_Date}}",
-                    "slaState": "\/api\/3\/picklists\/5230b20c-d408-4b36-ad8f-610167d84d34"
+                    "slaState": "\/api\/3\/picklists\/5230b20c-d408-4b36-ad8f-610167d84d34",
+                    "ackDueDate": "{{globalVars.Current_Date}}"
                 },
                 "_showJson": false,
                 "operation": "Overwrite",

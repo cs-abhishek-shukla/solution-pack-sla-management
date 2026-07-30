@@ -1,10 +1,10 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - Periodic Update Incident SLA Status",
+    "name": "Case - Periodic Update Case SLA Status",
     "aliasName": null,
     "tag": null,
-    "description": "This is a subroutine playbook to check and update an incident\u2019s SLA status.",
+    "description": "This is a subroutine playbook to check and update case\u2019s SLA status.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,

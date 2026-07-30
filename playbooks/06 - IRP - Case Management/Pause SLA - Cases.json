@@ -1,10 +1,10 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Pause SLA - Incidents",
+    "name": "Pause SLA - Cases",
     "aliasName": null,
     "tag": null,
-    "description": "Pauses the incident's acknowledgement or response SLA when its respective SLA status is changed to 'Awaiting Action'.",
+    "description": "Pauses the case acknowledgement or response SLA when its respective SLA status is changed to 'Awaiting Action'.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,

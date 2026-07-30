@@ -1,10 +1,10 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Incident - [03] Capture Response SLA (Upon Update)",
+    "name": "Case - [03] Capture Response SLA (Upon Update)",
     "aliasName": null,
     "tag": null,
-    "description": "Update an incident's response date and SLA status when the status of the incident is changed.",
+    "description": "Update case response date and SLA status when the status of the case is changed.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
