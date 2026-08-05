@@ -14,7 +14,7 @@ The **SLA Management** solution pack depends on the following solution packs tha
 
 | Solution Pack Name | Version         | Purpose                                |
 |:-------------------|:----------------|:---------------------------------------|
-| SOAR Framework     | v3.0.0 or later | Required for Incident Response modules |
+| SOAR Framework     | v3.0.0 or later | Required for Case Response modules |
 
 To create and manage SLAs, you must be assigned a role with the following minimum permissions:
 
@@ -22,7 +22,7 @@ To create and manage SLAs, you must be assigned a role with the following minimu
 2. `Execute` permission on the **Playbooks** module
 3. `Usage` permission on the **Widgets** module
 4. Default `Read` permission on the **Application** module
-5. Appropriate permissions to access the **Alert** and **Incident** modules, if displaying SLA within these module records
+5. Appropriate permissions to access the **Alert** and **Case** modules, if displaying SLA within these module records
 
 # Configuration
 For optimal performance of **SLA Management** solution pack, you can install and configure the following connector that help with the following:

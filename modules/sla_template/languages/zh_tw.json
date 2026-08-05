@@ -1,0 +1,21 @@
+{
+  "SLA_TEMPLATE": {
+    "MODULE_DETAILS": {
+      "SINGULAR_NAME": "SLA 範本",
+      "PLURAL_NAME": "SLA 範本"
+    },
+    "FIELDS": {
+      "INCPAUSESLAON": "暫停事件 SLA 於",
+      "ALTPAUSESLAON": "暫停警示 SLA 於",
+      "ACKSLATIME": "事件確認時間",
+      "INCSEVERITY": "嚴重程度",
+      "RESTIME": "事件回應時間",
+      "SLATRACKEDON": "事件確認 SLA 追蹤於",
+      "RESSLATRACKEDON": "事件回應 SLA 追蹤於",
+      "ALERTACKTIME": "警示確認時間",
+      "ALERTRESTIME": "警示回應時間",
+      "ALERTACKTRACKEDON": "警示確認追蹤於",
+      "ALERTRESTRACKEDON": "警示回應追蹤於"
+    }
+  }
+}
