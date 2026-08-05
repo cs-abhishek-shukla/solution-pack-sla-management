@@ -5,13 +5,13 @@
             "PLURAL_NAME": "SLA 템플릿"
         },
         "FIELDS": {
-            "INCPAUSESLAON": "일시적 인시던트 SLA 활성화",
+            "INCPAUSESLAON": "케이스 SLA 일시 중지 기준",
             "ALTPAUSESLAON": "일시적 경보 SLA 활성화",
-            "ACKSLATIME": "인시던트 응답 시간",
+            "ACKSLATIME": "케이스 확인 시간",
             "INCSEVERITY": "심각도",
-            "RESTIME": "인시던트 대응 시간",
-            "SLATRACKEDON": "인시던트 응답 SLA 추적 활성화",
-            "RESSLATRACKEDON": "인시던트 대응 SLA 추적 활성화",
+            "RESTIME": "케이스 응답 시간",
+            "SLATRACKEDON": "케이스 확인 SLA 추적 기준",
+            "RESSLATRACKEDON": "케이스 응답 SLA 추적 기준",
             "ALERTACKTIME": "경보 응답 시간",
             "ALERTRESTIME": "경보 대응 시간",
             "ALERTACKTRACKEDON": "경보 응답 추적 활성화",
