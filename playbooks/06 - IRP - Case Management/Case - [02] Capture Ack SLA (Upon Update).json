@@ -239,7 +239,7 @@
                 "when": "{{vars.input.records[0].slaState.itemValue== \"Awaiting Action\" or vars.input.records[0].slaState.itemValue == \"Paused\" or vars.input.records[0].slaState.itemValue == \"NA\"}}",
                 "resource": {
                     "slaState": "\/api\/3\/picklists\/5230b20c-d408-4b36-ad8f-610167d84d34",
-                    "ackDueDate": "{{globalVars.Current_Date}}"
+                    "ackDate": "{{globalVars.Current_Date}}"
                 },
                 "_showJson": false,
                 "operation": "Overwrite",
