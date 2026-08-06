@@ -5,13 +5,13 @@
             "PLURAL_NAME": "SLA模板"
         },
         "FIELDS": {
-            "INCPAUSESLAON": "暂停事件SLA",
+            "INCPAUSESLAON": "暂停案例SLA依据",
             "ALTPAUSESLAON": "暂停警报SLA",
-            "ACKSLATIME": "事件确认时间",
+            "ACKSLATIME": "案例确认时间",
             "INCSEVERITY": "严重性",
-            "RESTIME": "事件响应时间",
-            "SLATRACKEDON": "事件确认SLA跟踪",
-            "RESSLATRACKEDON": "事件响应SLA跟踪",
+            "RESTIME": "案例响应时间",
+            "SLATRACKEDON": "案例确认SLA跟踪依据",
+            "RESSLATRACKEDON": "案例响应SLA跟踪依据",
             "ALERTACKTIME": "警报确认时间",
             "ALERTRESTIME": "警报响应时间",
             "ALERTACKTRACKEDON": "警报确认跟踪",

@@ -5,13 +5,13 @@
             "PLURAL_NAME": "SLA Templates"
         },
         "FIELDS": {
-            "INCPAUSESLAON": "Pause Incident SLA On",
+            "INCPAUSESLAON": "Pause Case SLA On",
             "ALTPAUSESLAON": "Pause Alert SLA On",
-            "ACKSLATIME": "Incident Acknowledge Time",
+            "ACKSLATIME": "Case Acknowledge Time",
             "INCSEVERITY": "Severity",
-            "RESTIME": "Incident Response Time",
-            "SLATRACKEDON": "Incident Acknowledge SLA Tracked on",
-            "RESSLATRACKEDON": "Incident Response SLA Tracked on",
+            "RESTIME": "Case Response Time",
+            "SLATRACKEDON": "Case Acknowledge SLA Tracked on",
+            "RESSLATRACKEDON": "Case Response SLA Tracked on",
             "ALERTACKTIME": "Alert Acknowledge Time",
             "ALERTRESTIME": "Alert Response Time",
             "ALERTACKTRACKEDON": "Alert Acknowledge Tracked On",

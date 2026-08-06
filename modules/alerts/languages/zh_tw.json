@@ -1,0 +1,11 @@
+{
+  "ALERTS": {
+    "MODULE_DETAILS": {
+      "SINGULAR_NAME": "警示",
+      "PLURAL_NAME": "警示"
+    },
+    "FIELDS": {
+      "RESPONSESLARESUMEDATE": "回應 SLA 恢復日期"
+    }
+  }
+}

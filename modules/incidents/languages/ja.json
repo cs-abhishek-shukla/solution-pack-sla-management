@@ -1,8 +1,8 @@
 {
     "INCIDENTS": {
         "MODULE_DETAILS": {
-            "SINGULAR_NAME": "インシデント",
-            "PLURAL_NAME": "インシデント一覧"
+            "SINGULAR_NAME": "ケース",
+            "PLURAL_NAME": "ケース"
         },
         "FIELDS": {
             "RESPONSESLARESUMEDATE": "応答SLA再開日"

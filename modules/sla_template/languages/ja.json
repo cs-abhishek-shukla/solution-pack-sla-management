@@ -5,13 +5,13 @@
             "PLURAL_NAME": "SLA テンプレート"
         },
         "FIELDS": {
-            "INCPAUSESLAON": "インシデントSLAの一時停止",
+            "INCPAUSESLAON": "ケースSLAの一時停止対象",
             "ALTPAUSESLAON": "アラートSLAの一時停止",
-            "ACKSLATIME": "インシデント承認時間",
+            "ACKSLATIME": "ケース確認時間",
             "INCSEVERITY": "重要度",
-            "RESTIME": "インシデント応答時間",
-            "SLATRACKEDON": "インシデント承認SLAの追跡",
-            "RESSLATRACKEDON": "インシデント応答SLAの追跡",
+            "RESTIME": "ケース応答時間",
+            "SLATRACKEDON": "ケース確認SLAの追跡対象",
+            "RESSLATRACKEDON": "ケース応答SLAの追跡対象",
             "ALERTACKTIME": "アラート承認時間",
             "ALERTRESTIME": "アラート応答時間",
             "ALERTACKTRACKEDON": "アラート承認の追跡",

@@ -3,8 +3,9 @@
 <table>
     <tr>
         <th>Compatible Version</th>
-        <td>FortiSOAR v7.6.0 and later</td>
+        <td>FortiSOAR v7.6.5 and later</td>
     </tr>
 </table>
 
 - Fixed an issue where the **Set Acknowledge SLA as Missed** step incorrectly updated the **Ack Due Date** field instead of the **Ack Date** field.
+- *Incident* is now referred to as **Case**
