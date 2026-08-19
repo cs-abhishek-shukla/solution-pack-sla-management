@@ -4,9 +4,12 @@
 |----------------------------|
 | FortiSOAR v8.0.0 and later |
 
-- *Incident* is now referred to as **Case**
-- **SLA Template** is now listed under **Resources** in navigation menu
+- **Response Due Date** and **Response SLA** are now accurately recalculated upon changes in status (e.g., from *Open* → *Investigating* → *Pending* → *Investigating*).
 
-## Bug fixes
+- **Acknowledge SLA** is now correctly set when an alert transitions from *Open* to *Closed*.
+
+- The calculation of **Ack Due Date** and **Ack Date** is now precise when an alert is updated to **Investigating** immediately after its creation.
+
+## Bug Fixes
 
 - Fixed an issue in the step *Set Acknowledge SLA as Missed* where the field *Ack Due Date* was being updated instead of the field *Ack Date*.
